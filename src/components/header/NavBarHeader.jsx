@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import MenuIcon from "@/components/Icons/MenuIcon";
 import CloseIcon from "@/components/Icons/CloseIcon";
-
+import logo from "@/assets/Img/LJ_LOGO.png"
 const NavBarHeader = () => {
     const [openMenu, setOpenMenu] = useState(false);
     const handleOpenMenu = () => {
@@ -13,12 +13,13 @@ const NavBarHeader = () => {
 
     return (
         <>
-            <header className="container md:px-10  px-2 flex gap-4 mx-auto justify-evenly py-5 items-center">
+            <header className="container md:px-10  px-4 flex gap-4 mx-auto justify-evenly py-5 items-center">
+               <img src={logo} className='w-[50px] h-[50px] md:w-[80px] md:h-[80px]' ></img>
                 <h1 className="text-left font-bold text-2xl md:mr-auto md:mx-0 mx-auto">
-                    Repuestos LJ c.a.
+                  
                 </h1>
                 <button onClick={handleOpenMenu} className="md:hidden">
-                    <MenuIcon />
+                    <MenuIcon/>
                 </button>
                 <nav
                     className={`font-bold gap-4 md:static md:flex md:h-auto md:flex-row md:gap-4 md:p-0 
@@ -41,7 +42,7 @@ const NavBarHeader = () => {
                     </span>
                     <span>
                         {" "}
-                        <a href="">Precios</a>
+                        <a href="">Catalogo</a>
                     </span>
 
                     <span>
@@ -56,6 +57,7 @@ const NavBarHeader = () => {
                     </button>
                 </div>
             </header>
+          
         </>
     );
 };

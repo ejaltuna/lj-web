@@ -2,12 +2,13 @@ import React from "react";
 import Star from "@/components/Icons/star";
 import CheckIcon from "../Icons/checkIcon";
 import heroImg from "@/assets/Img/hero-banner.png";
+import sky from "@/assets/Img/marca-sky.jpg"
+import logo from "@/assets/Img/LJ_LOGO.png";
 
 export const HeaderBody = () => {
     return (
-        <div className="container flex md:px-10 px-2 pt-20 mx-auto">
+        <div className="container flex md:px-10 px-4 pt-20 mx-auto mb-10">
             <div className=" flex flex-col-reverse md:grid md:grid-cols-2 grid-cols-1 gap-3 md:grid-col-reverse  items-center">
-                
                 <div className="grid-cols-1 ">
                     <div className="gap-3 pb-5 md:flex hidden">
                         <span className="flex">
@@ -43,8 +44,8 @@ export const HeaderBody = () => {
                        <span className="flex items-center md:gap-1"> <CheckIcon /> Delivery gratis en zona cercana</span>
                     </div>
                 </div>
-                <div className="grid-cols-1 ">
-                    <img src={heroImg} alt="" />
+                <div className="grid-cols-1  ">
+                    <img src={logo} alt="" className="rounded-lg" />
                 </div>
             </div>
         </div>
