@@ -7,7 +7,7 @@ import logo from "@/assets/Img/LJ_LOGO.png";
 
 export const HeaderBody = () => {
     return (
-        <div className="container flex md:px-10 px-4 pt-20 mx-auto mb-10">
+        <div className="container flex md:px-10 px-4 pt-3 mx-auto mb-10">
             <div className=" flex flex-col-reverse md:grid md:grid-cols-2 grid-cols-1 gap-3 md:grid-col-reverse  items-center">
                 <div className="grid-cols-1 ">
                     <div className="gap-3 pb-5 md:flex hidden">

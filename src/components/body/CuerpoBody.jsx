@@ -4,11 +4,12 @@ import MovilIcon from "@/components/Icons/MovilIcon";
 import CodeIcon from "@/components/Icons/CodeIcon";
 import logo from "@/assets/Img/LJ_LOGO.png";
 import sky from "@/assets/Img/marca-sky.jpg";
+import Carousel from "react-grid-carousel";
 
 const CuerpoBody = () => {
     return (
         <>
-            <section className="container mx-auto px-4 md:px-10  pb-16">
+            <section className="container mx-auto px-4 md:px-10 w- pb-16">
                 <div className="grid grid-cols-1">
                     <div>
                         <span className="font-bold text-violet-800">
@@ -68,6 +69,361 @@ const CuerpoBody = () => {
                     </div>
                 </div>
             </section>
+            <section className=" mx-auto px-4 md:px-1 text-center pb-16">
+                <h1 className=" container text-center text-white font-bold text-3xl bg-violet-800 py-4 mx-auto rounded-md">
+                    Mas Vendidos...
+                </h1>
+                <Carousel cols={6} rows={1} gap={10} loop>
+                    <Carousel.Item>
+                        {/* <-- Cart Producto  */}
+                        <div className="group relative border border-zinc-800 p-2 rounded-xl">
+                            <div className="aspect-w-1 aspect-h-1 overflow-hidden  rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none ">
+                                <img
+                                    src="https://skylubricantes.com/images/products/storage/gasolina/Sintetico-SAE-5W20.png"
+                                    alt="Front of men&#039;s Basic Tee in black."
+                                    className="p-2 mx-auto items-center  h-2/5 w-2/6  object-fill object-center   md:w-2/4 md:h-3/4 lg:w-3/4 lg:h-3/4"
+                                />
+                            </div>
+                            <div className="mt-4 grid grid-cols-[2fr_0.5fr]  justify-between">
+                                <div className="col-span-2">
+                                    <h3 className="text-sm font-bold text-center text-gray-800">
+                                        <a href="#">
+                                            <span
+                                                aria-hidden="true"
+                                                className="absolute inset-0"
+                                            >
+                                                {" "}
+                                            </span>
+                                            SAE 5W-20 API SP
+                                        </a>
+                                    </h3>
+                                </div>
+                                <div className="">
+                                    <p className="mt-1 text-sm text-gray-500">
+                                        Aceite para motores a gasolina.
+                                    </p>
+                                </div>
+                                <div className="text-center my-auto">
+                                    <p className="text-2xl font-medium text-gray-900">
+                                        $7
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        {/* <-- Cart Producto  */}
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        {/* <-- Cart Producto  */}
+                        <div className="group relative border border-zinc-800 p-2 rounded-xl">
+                            <div className="aspect-w-1 aspect-h-1 overflow-hidden  rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none ">
+                                <img
+                                    src="https://skylubricantes.com/images/products/storage/gasolina/Sintetico-SAE-5W20.png"
+                                    alt="Front of men&#039;s Basic Tee in black."
+                                    className="p-2 mx-auto items-center  h-2/5 w-2/6  object-fill object-center   md:w-2/4 md:h-3/4 lg:w-3/4 lg:h-3/4"
+                                />
+                            </div>
+                            <div className="mt-4 grid grid-cols-[2fr_0.5fr]  justify-between">
+                                <div className="col-span-2">
+                                    <h3 className="text-sm font-bold text-center text-gray-800">
+                                        <a href="#">
+                                            <span
+                                                aria-hidden="true"
+                                                className="absolute inset-0"
+                                            >
+                                                {" "}
+                                            </span>
+                                            SAE 5W-20 API SP
+                                        </a>
+                                    </h3>
+                                </div>
+                                <div className="">
+                                    <p className="mt-1 text-sm text-gray-500">
+                                        Aceite para motores a gasolina.
+                                    </p>
+                                </div>
+                                <div className="text-center my-auto">
+                                    <p className="text-2xl font-medium text-gray-900">
+                                        $7
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        {/* <-- Cart Producto  */}
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        {/* <-- Cart Producto  */}
+                        <div className="group relative border border-zinc-800 p-2 rounded-xl">
+                            <div className="aspect-w-1 aspect-h-1 overflow-hidden  rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none ">
+                                <img
+                                    src="https://skylubricantes.com/images/products/storage/gasolina/Sintetico-SAE-5W20.png"
+                                    alt="Front of men&#039;s Basic Tee in black."
+                                    className="p-2 mx-auto items-center  h-2/5 w-2/6  object-fill object-center   md:w-2/4 md:h-3/4 lg:w-3/4 lg:h-3/4"
+                                />
+                            </div>
+                            <div className="mt-4 grid grid-cols-[2fr_0.5fr]  justify-between">
+                                <div className="col-span-2">
+                                    <h3 className="text-sm font-bold text-center text-gray-800">
+                                        <a href="#">
+                                            <span
+                                                aria-hidden="true"
+                                                className="absolute inset-0"
+                                            >
+                                                {" "}
+                                            </span>
+                                            SAE 5W-20 API SP
+                                        </a>
+                                    </h3>
+                                </div>
+                                <div className="">
+                                    <p className="mt-1 text-sm text-gray-500">
+                                        Aceite para motores a gasolina.
+                                    </p>
+                                </div>
+                                <div className="text-center my-auto">
+                                    <p className="text-2xl font-medium text-gray-900">
+                                        $7
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        {/* <-- Cart Producto  */}
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        {/* <-- Cart Producto  */}
+                        <div className="group relative border border-zinc-800 p-2 rounded-xl">
+                            <div className="aspect-w-1 aspect-h-1 overflow-hidden  rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none ">
+                                <img
+                                    src="https://skylubricantes.com/images/products/storage/gasolina/Sintetico-SAE-5W20.png"
+                                    alt="Front of men&#039;s Basic Tee in black."
+                                    className="p-2 mx-auto items-center  h-2/5 w-2/6  object-fill object-center   md:w-2/4 md:h-3/4 lg:w-3/4 lg:h-3/4"
+                                />
+                            </div>
+                            <div className="mt-4 grid grid-cols-[2fr_0.5fr]  justify-between">
+                                <div className="col-span-2">
+                                    <h3 className="text-sm font-bold text-center text-gray-800">
+                                        <a href="#">
+                                            <span
+                                                aria-hidden="true"
+                                                className="absolute inset-0"
+                                            >
+                                                {" "}
+                                            </span>
+                                            SAE 5W-20 API SP
+                                        </a>
+                                    </h3>
+                                </div>
+                                <div className="">
+                                    <p className="mt-1 text-sm text-gray-500">
+                                        Aceite para motores a gasolina.
+                                    </p>
+                                </div>
+                                <div className="text-center my-auto">
+                                    <p className="text-2xl font-medium text-gray-900">
+                                        $7
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        {/* <-- Cart Producto  */}
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        {/* <-- Cart Producto  */}
+                        <div className="group relative border border-zinc-800 p-2 rounded-xl">
+                            <div className="aspect-w-1 aspect-h-1 overflow-hidden  rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none ">
+                                <img
+                                    src="https://skylubricantes.com/images/products/storage/gasolina/Sintetico-SAE-5W20.png"
+                                    alt="Front of men&#039;s Basic Tee in black."
+                                    className="p-2 mx-auto items-center  h-2/5 w-2/6  object-fill object-center   md:w-2/4 md:h-3/4 lg:w-3/4 lg:h-3/4"
+                                />
+                            </div>
+                            <div className="mt-4 grid grid-cols-[2fr_0.5fr]  justify-between">
+                                <div className="col-span-2">
+                                    <h3 className="text-sm font-bold text-center text-gray-800">
+                                        <a href="#">
+                                            <span
+                                                aria-hidden="true"
+                                                className="absolute inset-0"
+                                            >
+                                                {" "}
+                                            </span>
+                                            SAE 5W-20 API SP
+                                        </a>
+                                    </h3>
+                                </div>
+                                <div className="">
+                                    <p className="mt-1 text-sm text-gray-500">
+                                        Aceite para motores a gasolina.
+                                    </p>
+                                </div>
+                                <div className="text-center my-auto">
+                                    <p className="text-2xl font-medium text-gray-900">
+                                        $7
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        {/* <-- Cart Producto  */}
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        {/* <-- Cart Producto  */}
+                        <div className="group relative border border-zinc-800 p-2 rounded-xl">
+                            <div className="aspect-w-1 aspect-h-1 overflow-hidden  rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none ">
+                                <img
+                                    src="https://skylubricantes.com/images/products/storage/gasolina/Sintetico-SAE-5W20.png"
+                                    alt="Front of men&#039;s Basic Tee in black."
+                                    className="p-2 mx-auto items-center  h-2/5 w-2/6  object-fill object-center   md:w-2/4 md:h-3/4 lg:w-3/4 lg:h-3/4"
+                                />
+                            </div>
+                            <div className="mt-4 grid grid-cols-[2fr_0.5fr]  justify-between">
+                                <div className="col-span-2">
+                                    <h3 className="text-sm font-bold text-center text-gray-800">
+                                        <a href="#">
+                                            <span
+                                                aria-hidden="true"
+                                                className="absolute inset-0"
+                                            >
+                                                {" "}
+                                            </span>
+                                            SAE 5W-20 API SP
+                                        </a>
+                                    </h3>
+                                </div>
+                                <div className="">
+                                    <p className="mt-1 text-sm text-gray-500">
+                                        Aceite para motores a gasolina.
+                                    </p>
+                                </div>
+                                <div className="text-center my-auto">
+                                    <p className="text-2xl font-medium text-gray-900">
+                                        $7
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        {/* <-- Cart Producto  */}
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        {/* <-- Cart Producto  */}
+                        <div className="group relative border border-zinc-800 p-2 rounded-xl">
+                            <div className="aspect-w-1 aspect-h-1 overflow-hidden  rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none ">
+                                <img
+                                    src="https://skylubricantes.com/images/products/storage/gasolina/Sintetico-SAE-5W20.png"
+                                    alt="Front of men&#039;s Basic Tee in black."
+                                    className="p-2 mx-auto items-center  h-2/5 w-2/6  object-fill object-center   md:w-2/4 md:h-3/4 lg:w-3/4 lg:h-3/4"
+                                />
+                            </div>
+                            <div className="mt-4 grid grid-cols-[2fr_0.5fr]  justify-between">
+                                <div className="col-span-2">
+                                    <h3 className="text-sm font-bold text-center text-gray-800">
+                                        <a href="#">
+                                            <span
+                                                aria-hidden="true"
+                                                className="absolute inset-0"
+                                            >
+                                                {" "}
+                                            </span>
+                                            SAE 5W-20 API SP
+                                        </a>
+                                    </h3>
+                                </div>
+                                <div className="">
+                                    <p className="mt-1 text-sm text-gray-500">
+                                        Aceite para motores a gasolina.
+                                    </p>
+                                </div>
+                                <div className="text-center my-auto">
+                                    <p className="text-2xl font-medium text-gray-900">
+                                        $7
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        {/* <-- Cart Producto  */}
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        {/* <-- Cart Producto  */}
+                        <div className="group relative border border-zinc-800 p-2 rounded-xl">
+                            <div className="aspect-w-1 aspect-h-1 overflow-hidden  rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none ">
+                                <img
+                                    src="https://skylubricantes.com/images/products/storage/gasolina/Sintetico-SAE-5W20.png"
+                                    alt="Front of men&#039;s Basic Tee in black."
+                                    className="p-2 mx-auto items-center  h-2/5 w-2/6  object-fill object-center   md:w-2/4 md:h-3/4 lg:w-3/4 lg:h-3/4"
+                                />
+                            </div>
+                            <div className="mt-4 grid grid-cols-[2fr_0.5fr]  justify-between">
+                                <div className="col-span-2">
+                                    <h3 className="text-sm font-bold text-center text-gray-800">
+                                        <a href="#">
+                                            <span
+                                                aria-hidden="true"
+                                                className="absolute inset-0"
+                                            >
+                                                {" "}
+                                            </span>
+                                            SAE 5W-20 API SP
+                                        </a>
+                                    </h3>
+                                </div>
+                                <div className="">
+                                    <p className="mt-1 text-sm text-gray-500">
+                                        Aceite para motores a gasolina.
+                                    </p>
+                                </div>
+                                <div className="text-center my-auto">
+                                    <p className="text-2xl font-medium text-gray-900">
+                                        $7
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        {/* <-- Cart Producto  */}
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        {/* <-- Cart Producto  */}
+                        <div className="group relative border border-zinc-800 p-2 rounded-xl">
+                            <div className="aspect-w-1 aspect-h-1 overflow-hidden  rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none ">
+                                <img
+                                    src="https://skylubricantes.com/images/products/storage/gasolina/Sintetico-SAE-5W20.png"
+                                    alt="Front of men&#039;s Basic Tee in black."
+                                    className="p-2 mx-auto items-center  h-2/5 w-2/6  object-fill object-center   md:w-2/4 md:h-3/4 lg:w-3/4 lg:h-3/4"
+                                />
+                            </div>
+                            <div className="mt-4 grid grid-cols-[2fr_0.5fr]  justify-between">
+                                <div className="col-span-2">
+                                    <h3 className="text-sm font-bold text-center text-gray-800">
+                                        <a href="#">
+                                            <span
+                                                aria-hidden="true"
+                                                className="absolute inset-0"
+                                            >
+                                                {" "}
+                                            </span>
+                                            SAE 5W-20 API SP
+                                        </a>
+                                    </h3>
+                                </div>
+                                <div className="">
+                                    <p className="mt-1 text-sm text-gray-500">
+                                        Aceite para motores a gasolina.
+                                    </p>
+                                </div>
+                                <div className="text-center my-auto">
+                                    <p className="text-2xl font-medium text-gray-900">
+                                        $7
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        {/* <-- Cart Producto  */}
+                    </Carousel.Item>
+
+                </Carousel>
+                <div className="bg-white">
+                    <div className="mx-auto max-w-2xl py-1 px-1 sm:py-2 sm:px-6 lg:max-w-7xl lg:px-1">
+                        <div className="mt-2 grid grid-cols-1 place-content-center gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-7 2xl:grid-cols-8 xl:gap-x-8"></div>
+                    </div>
+                </div>
+            </section>
 
             <section className="container mx-auto px-4 md:px-10  pb-16">
                 <div className="grid md:grid-cols-[1.5fr_1fr]  gap-4 md:gap-y-4 grid-cols-1 bg-violet-800 rounded-md items-center">
@@ -100,127 +456,526 @@ const CuerpoBody = () => {
 
             <section className="">
                 <h1 className="text-center font-bold text-3xl">
-                    Productos de excelente Calidad
+                    Catalogo de Aceites.
                 </h1>
-                <div className="bg-white ">
-                    <div className="mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
-                        <div className="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
-                            <div className="group relative">
-                                <div className="  aspect-w-1 aspect-h-1 w-full h-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none lg:h-80">
+                <div className="bg-white">
+                    <div className=" max-w-2xl py-4 px-4 sm:py-14 sm:px-6 lg:max-w-7xl lg:px-8">
+                        <div className="mt-2 grid grid-cols-1 place-content-center gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-5 2xl:grid-cols-6 xl:gap-x-8">
+                            <div className="group relative border border-zinc-800 p-2 rounded-xl">
+                                <div className="aspect-w-1 aspect-h-1 overflow-hidden  rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none ">
                                     <img
                                         src="https://skylubricantes.com/images/products/storage/gasolina/Sintetico-SAE-5W20.png"
                                         alt="Front of men&#039;s Basic Tee in black."
-                                        className="h-2/4 w-2/4 object-fill object-center lg:h-full lg:w-full"
+                                        className="p-2 mx-auto items-center  h-2/5 w-2/6  object-fill object-center   md:w-2/4 md:h-3/4 lg:w-3/4 lg:h-3/4"
                                     />
                                 </div>
-                                <div className="mt-4 flex justify-between">
-                                    <div>
-                                        <h3 className="text-sm text-gray-700">
+                                <div className="mt-4 grid grid-cols-[2fr_0.5fr]  justify-between">
+                                    <div className="col-span-2">
+                                        <h3 className="text-sm font-bold text-center text-gray-800">
                                             <a href="#">
                                                 <span
                                                     aria-hidden="true"
                                                     className="absolute inset-0"
-                                                ></span>
+                                                >
+                                                    {" "}
+                                                </span>
                                                 SAE 5W-20 API SP
                                             </a>
                                         </h3>
+                                    </div>
+                                    <div className="">
                                         <p className="mt-1 text-sm text-gray-500">
-                                            Motor a gasolina
+                                            Aceite para motores a gasolina.
                                         </p>
                                     </div>
-                                    <p className="text-sm font-medium text-gray-900">
-                                        $7
-                                    </p>
-                                </div>
-                            </div>
-                            <div className="group relative">
-                                <div className="  aspect-w-1 aspect-h-1 w-full h-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none lg:h-80">
-                                    <img
-                                        src="https://skylubricantes.com/images/products/storage/gasolina/Sintetico-SAE-5W20.png"
-                                        alt="Front of men&#039;s Basic Tee in black."
-                                        className="h-2/4 w-2/4 object-fill object-center lg:h-full lg:w-full"
-                                    />
-                                </div>
-                                <div className="mt-4 flex justify-between">
-                                    <div>
-                                        <h3 className="text-sm text-gray-700">
-                                            <a href="#">
-                                                <span
-                                                    aria-hidden="true"
-                                                    className="absolute inset-0"
-                                                ></span>
-                                                SAE 5W-20 API SP
-                                            </a>
-                                        </h3>
-                                        <p className="mt-1 text-sm text-gray-500">
-                                            Motor a gasolina
+                                    <div className="text-center my-auto">
+                                        <p className="text-2xl font-medium text-gray-900">
+                                            $7
                                         </p>
                                     </div>
-                                    <p className="text-sm font-medium text-gray-900">
-                                        $35
-                                    </p>
-                                </div>
-                            </div>
-                            <div className="group relative">
-                                <div className="  aspect-w-1 aspect-h-1 w-full h-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none lg:h-80">
-                                    <img
-                                        src="https://skylubricantes.com/images/products/storage/gasolina/Sintetico-SAE-5W20.png"
-                                        alt="Front of men&#039;s Basic Tee in black."
-                                        className="h-2/4 w-2/4 object-fill object-center lg:h-full lg:w-full"
-                                    />
-                                </div>
-                                <div className="mt-4 flex justify-between">
-                                    <div>
-                                        <h3 className="text-sm text-gray-700">
-                                            <a href="#">
-                                                <span
-                                                    aria-hidden="true"
-                                                    className="absolute inset-0"
-                                                ></span>
-                                                SAE 5W-20 API SP
-                                            </a>
-                                        </h3>
-                                        <p className="mt-1 text-sm text-gray-500">
-                                            Motor a gasolina
-                                        </p>
-                                    </div>
-                                    <p className="text-sm font-medium text-gray-900">
-                                        $35
-                                    </p>
-                                </div>
-                            </div>
-                            <div className="group relative">
-                                <div className="  aspect-w-1 aspect-h-1 w-full h-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none lg:h-80">
-                                    <img
-                                        src="https://skylubricantes.com/images/products/storage/gasolina/Sintetico-SAE-5W20.png"
-                                        alt="Front of men&#039;s Basic Tee in black."
-                                        className="h-2/4 w-2/4 object-fill object-center lg:h-full lg:w-full"
-                                    />
-                                </div>
-                                <div className="mt-4 flex justify-between">
-                                    <div>
-                                        <h3 className="text-sm text-gray-700">
-                                            <a href="#">
-                                                <span
-                                                    aria-hidden="true"
-                                                    className="absolute inset-0"
-                                                ></span>
-                                                SAE 5W-20 API SP
-                                            </a>
-                                        </h3>
-                                        <p className="mt-1 text-sm text-gray-500">
-                                            Motor a gasolina
-                                        </p>
-                                    </div>
-                                    <p className="text-sm font-medium text-gray-900">
-                                        $35
-                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
+
+            <Carousel cols={6} rows={1} gap={10} loop>
+                <Carousel.Item>
+                   <div className="bg-white">
+                    <div className=" max-w-2xl py-4 px-4 sm:py-14 sm:px-6 lg:max-w-7xl lg:px-8">
+                        <div className="mt-2 grid grid-cols-1 place-content-center gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-5 2xl:grid-cols-6 xl:gap-x-8">
+                            <div className="group relative border border-zinc-800 p-2 rounded-xl">
+                                <div className="aspect-w-1 aspect-h-1 overflow-hidden  rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none ">
+                                    <img
+                                        src="https://skylubricantes.com/images/products/storage/gasolina/Sintetico-SAE-5W20.png"
+                                        alt="Front of men&#039;s Basic Tee in black."
+                                        className="p-2 mx-auto items-center  h-2/5 w-2/6  object-fill object-center   md:w-2/4 md:h-3/4 lg:w-3/4 lg:h-3/4"
+                                    />
+                                </div>
+                                <div className="mt-4 grid grid-cols-[2fr_0.5fr]  justify-between">
+                                    <div className="col-span-2">
+                                        <h3 className="text-sm font-bold text-center text-gray-800">
+                                            <a href="#">
+                                                <span
+                                                    aria-hidden="true"
+                                                    className="absolute inset-0"
+                                                >
+                                                    {" "}
+                                                </span>
+                                                SAE 5W-20 API SP
+                                            </a>
+                                        </h3>
+                                    </div>
+                                    <div className="">
+                                        <p className="mt-1 text-sm text-gray-500">
+                                            Aceite para motores a gasolina.
+                                        </p>
+                                    </div>
+                                    <div className="text-center my-auto">
+                                        <p className="text-2xl font-medium text-gray-900">
+                                            $7
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <div className="group relative border border-zinc-800 p-2 rounded-xl">
+                        <div className="aspect-w-1 aspect-h-1 overflow-hidden  rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none ">
+                            <img
+                                src="https://skylubricantes.com/images/products/storage/gasolina/Sintetico-SAE-5W20.png"
+                                alt="Front of men&#039;s Basic Tee in black."
+                                className="p-2 mx-auto items-center  h-2/5 w-2/6  object-fill object-center   md:w-2/4 md:h-3/4 lg:w-3/4 lg:h-3/4"
+                            />
+                        </div>
+                        <div className="mt-4 grid grid-cols-[2fr_0.5fr]  justify-between">
+                            <div className="col-span-2">
+                                <h3 className="text-sm font-bold text-center text-gray-800">
+                                    <a href="#">
+                                        <span
+                                            aria-hidden="true"
+                                            className="absolute inset-0"
+                                        >
+                                            {" "}
+                                        </span>
+                                        SAE 5W-20 API SP
+                                    </a>
+                                </h3>
+                            </div>
+                            <div className="">
+                                <p className="mt-1 text-sm text-gray-500">
+                                    Aceite para motores a gasolina.
+                                </p>
+                            </div>
+                            <div className="text-center my-auto">
+                                <p className="text-2xl font-medium text-gray-900">
+                                    $7
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <div className="group relative border border-zinc-800 p-2 rounded-xl">
+                        <div className="aspect-w-1 aspect-h-1 overflow-hidden  rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none ">
+                            <img
+                                src="https://skylubricantes.com/images/products/storage/gasolina/Sintetico-SAE-5W20.png"
+                                alt="Front of men&#039;s Basic Tee in black."
+                                className="p-2 mx-auto items-center  h-2/5 w-2/6  object-fill object-center   md:w-2/4 md:h-3/4 lg:w-3/4 lg:h-3/4"
+                            />
+                        </div>
+                        <div className="mt-4 grid grid-cols-[2fr_0.5fr]  justify-between">
+                            <div className="col-span-2">
+                                <h3 className="text-sm font-bold text-center text-gray-800">
+                                    <a href="#">
+                                        <span
+                                            aria-hidden="true"
+                                            className="absolute inset-0"
+                                        >
+                                            {" "}
+                                        </span>
+                                        SAE 5W-20 API SP
+                                    </a>
+                                </h3>
+                            </div>
+                            <div className="">
+                                <p className="mt-1 text-sm text-gray-500">
+                                    Aceite para motores a gasolina.
+                                </p>
+                            </div>
+                            <div className="text-center my-auto">
+                                <p className="text-2xl font-medium text-gray-900">
+                                    $7
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <div className="group relative border border-zinc-800 p-2 rounded-xl">
+                        <div className="aspect-w-1 aspect-h-1 overflow-hidden  rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none ">
+                            <img
+                                src="https://skylubricantes.com/images/products/storage/gasolina/Sintetico-SAE-5W20.png"
+                                alt="Front of men&#039;s Basic Tee in black."
+                                className="p-2 mx-auto items-center  h-2/5 w-2/6  object-fill object-center   md:w-2/4 md:h-3/4 lg:w-3/4 lg:h-3/4"
+                            />
+                        </div>
+                        <div className="mt-4 grid grid-cols-[2fr_0.5fr]  justify-between">
+                            <div className="col-span-2">
+                                <h3 className="text-sm font-bold text-center text-gray-800">
+                                    <a href="#">
+                                        <span
+                                            aria-hidden="true"
+                                            className="absolute inset-0"
+                                        >
+                                            {" "}
+                                        </span>
+                                        SAE 5W-20 API SP
+                                    </a>
+                                </h3>
+                            </div>
+                            <div className="">
+                                <p className="mt-1 text-sm text-gray-500">
+                                    Aceite para motores a gasolina.
+                                </p>
+                            </div>
+                            <div className="text-center my-auto">
+                                <p className="text-2xl font-medium text-gray-900">
+                                    $7
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <div className="group relative border border-zinc-800 p-2 rounded-xl">
+                        <div className="aspect-w-1 aspect-h-1 overflow-hidden  rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none ">
+                            <img
+                                src="https://skylubricantes.com/images/products/storage/gasolina/Sintetico-SAE-5W20.png"
+                                alt="Front of men&#039;s Basic Tee in black."
+                                className="p-2 mx-auto items-center  h-2/5 w-2/6  object-fill object-center   md:w-2/4 md:h-3/4 lg:w-3/4 lg:h-3/4"
+                            />
+                        </div>
+                        <div className="mt-4 grid grid-cols-[2fr_0.5fr]  justify-between">
+                            <div className="col-span-2">
+                                <h3 className="text-sm font-bold text-center text-gray-800">
+                                    <a href="#">
+                                        <span
+                                            aria-hidden="true"
+                                            className="absolute inset-0"
+                                        >
+                                            {" "}
+                                        </span>
+                                        SAE 5W-20 API SP
+                                    </a>
+                                </h3>
+                            </div>
+                            <div className="">
+                                <p className="mt-1 text-sm text-gray-500">
+                                    Aceite para motores a gasolina.
+                                </p>
+                            </div>
+                            <div className="text-center my-auto">
+                                <p className="text-2xl font-medium text-gray-900">
+                                    $7
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <div className="group relative border border-zinc-800 p-2 rounded-xl">
+                        <div className="aspect-w-1 aspect-h-1 overflow-hidden  rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none ">
+                            <img
+                                src="https://skylubricantes.com/images/products/storage/gasolina/Sintetico-SAE-5W20.png"
+                                alt="Front of men&#039;s Basic Tee in black."
+                                className="p-2 mx-auto items-center  h-2/5 w-2/6  object-fill object-center   md:w-2/4 md:h-3/4 lg:w-3/4 lg:h-3/4"
+                            />
+                        </div>
+                        <div className="mt-4 grid grid-cols-[2fr_0.5fr]  justify-between">
+                            <div className="col-span-2">
+                                <h3 className="text-sm font-bold text-center text-gray-800">
+                                    <a href="#">
+                                        <span
+                                            aria-hidden="true"
+                                            className="absolute inset-0"
+                                        >
+                                            {" "}
+                                        </span>
+                                        SAE 5W-20 API SP
+                                    </a>
+                                </h3>
+                            </div>
+                            <div className="">
+                                <p className="mt-1 text-sm text-gray-500">
+                                    Aceite para motores a gasolina.
+                                </p>
+                            </div>
+                            <div className="text-center my-auto">
+                                <p className="text-2xl font-medium text-gray-900">
+                                    $7
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <div className="group relative border border-zinc-800 p-2 rounded-xl">
+                        <div className="aspect-w-1 aspect-h-1 overflow-hidden  rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none ">
+                            <img
+                                src="https://skylubricantes.com/images/products/storage/gasolina/Sintetico-SAE-5W20.png"
+                                alt="Front of men&#039;s Basic Tee in black."
+                                className="p-2 mx-auto items-center  h-2/5 w-2/6  object-fill object-center   md:w-2/4 md:h-3/4 lg:w-3/4 lg:h-3/4"
+                            />
+                        </div>
+                        <div className="mt-4 grid grid-cols-[2fr_0.5fr]  justify-between">
+                            <div className="col-span-2">
+                                <h3 className="text-sm font-bold text-center text-gray-800">
+                                    <a href="#">
+                                        <span
+                                            aria-hidden="true"
+                                            className="absolute inset-0"
+                                        >
+                                            {" "}
+                                        </span>
+                                        SAE 5W-20 API SP
+                                    </a>
+                                </h3>
+                            </div>
+                            <div className="">
+                                <p className="mt-1 text-sm text-gray-500">
+                                    Aceite para motores a gasolina.
+                                </p>
+                            </div>
+                            <div className="text-center my-auto">
+                                <p className="text-2xl font-medium text-gray-900">
+                                    $7
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <div className="group relative border border-zinc-800 p-2 rounded-xl">
+                        <div className="aspect-w-1 aspect-h-1 overflow-hidden  rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none ">
+                            <img
+                                src="https://skylubricantes.com/images/products/storage/gasolina/Sintetico-SAE-5W20.png"
+                                alt="Front of men&#039;s Basic Tee in black."
+                                className="p-2 mx-auto items-center  h-2/5 w-2/6  object-fill object-center   md:w-2/4 md:h-3/4 lg:w-3/4 lg:h-3/4"
+                            />
+                        </div>
+                        <div className="mt-4 grid grid-cols-[2fr_0.5fr]  justify-between">
+                            <div className="col-span-2">
+                                <h3 className="text-sm font-bold text-center text-gray-800">
+                                    <a href="#">
+                                        <span
+                                            aria-hidden="true"
+                                            className="absolute inset-0"
+                                        >
+                                            {" "}
+                                        </span>
+                                        SAE 5W-20 API SP
+                                    </a>
+                                </h3>
+                            </div>
+                            <div className="">
+                                <p className="mt-1 text-sm text-gray-500">
+                                    Aceite para motores a gasolina.
+                                </p>
+                            </div>
+                            <div className="text-center my-auto">
+                                <p className="text-2xl font-medium text-gray-900">
+                                    $7
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <div className="group relative border border-zinc-800 p-2 rounded-xl">
+                        <div className="aspect-w-1 aspect-h-1 overflow-hidden  rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none ">
+                            <img
+                                src="https://skylubricantes.com/images/products/storage/gasolina/Sintetico-SAE-5W20.png"
+                                alt="Front of men&#039;s Basic Tee in black."
+                                className="p-2 mx-auto items-center  h-2/5 w-2/6  object-fill object-center   md:w-2/4 md:h-3/4 lg:w-3/4 lg:h-3/4"
+                            />
+                        </div>
+                        <div className="mt-4 grid grid-cols-[2fr_0.5fr]  justify-between">
+                            <div className="col-span-2">
+                                <h3 className="text-sm font-bold text-center text-gray-800">
+                                    <a href="#">
+                                        <span
+                                            aria-hidden="true"
+                                            className="absolute inset-0"
+                                        >
+                                            {" "}
+                                        </span>
+                                        SAE 5W-20 API SP
+                                    </a>
+                                </h3>
+                            </div>
+                            <div className="">
+                                <p className="mt-1 text-sm text-gray-500">
+                                    Aceite para motores a gasolina.
+                                </p>
+                            </div>
+                            <div className="text-center my-auto">
+                                <p className="text-2xl font-medium text-gray-900">
+                                    $7
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <div className="group relative border border-zinc-800 p-2 rounded-xl">
+                        <div className="aspect-w-1 aspect-h-1 overflow-hidden  rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none ">
+                            <img
+                                src="https://skylubricantes.com/images/products/storage/gasolina/Sintetico-SAE-5W20.png"
+                                alt="Front of men&#039;s Basic Tee in black."
+                                className="p-2 mx-auto items-center  h-2/5 w-2/6  object-fill object-center   md:w-2/4 md:h-3/4 lg:w-3/4 lg:h-3/4"
+                            />
+                        </div>
+                        <div className="mt-4 grid grid-cols-[2fr_0.5fr]  justify-between">
+                            <div className="col-span-2">
+                                <h3 className="text-sm font-bold text-center text-gray-800">
+                                    <a href="#">
+                                        <span
+                                            aria-hidden="true"
+                                            className="absolute inset-0"
+                                        >
+                                            {" "}
+                                        </span>
+                                        SAE 5W-20 API SP
+                                    </a>
+                                </h3>
+                            </div>
+                            <div className="">
+                                <p className="mt-1 text-sm text-gray-500">
+                                    Aceite para motores a gasolina.
+                                </p>
+                            </div>
+                            <div className="text-center my-auto">
+                                <p className="text-2xl font-medium text-gray-900">
+                                    $7
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <div className="group relative border border-zinc-800 p-2 rounded-xl">
+                        <div className="aspect-w-1 aspect-h-1 overflow-hidden  rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none ">
+                            <img
+                                src="https://skylubricantes.com/images/products/storage/gasolina/Sintetico-SAE-5W20.png"
+                                alt="Front of men&#039;s Basic Tee in black."
+                                className="p-2 mx-auto items-center  h-2/5 w-2/6  object-fill object-center   md:w-2/4 md:h-3/4 lg:w-3/4 lg:h-3/4"
+                            />
+                        </div>
+                        <div className="mt-4 grid grid-cols-[2fr_0.5fr]  justify-between">
+                            <div className="col-span-2">
+                                <h3 className="text-sm font-bold text-center text-gray-800">
+                                    <a href="#">
+                                        <span
+                                            aria-hidden="true"
+                                            className="absolute inset-0"
+                                        >
+                                            {" "}
+                                        </span>
+                                        SAE 5W-20 API SP
+                                    </a>
+                                </h3>
+                            </div>
+                            <div className="">
+                                <p className="mt-1 text-sm text-gray-500">
+                                    Aceite para motores a gasolina.
+                                </p>
+                            </div>
+                            <div className="text-center my-auto">
+                                <p className="text-2xl font-medium text-gray-900">
+                                    $7
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <div className="group relative border border-zinc-800 p-2 rounded-xl">
+                        <div className="aspect-w-1 aspect-h-1 overflow-hidden  rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none ">
+                            <img
+                                src="https://skylubricantes.com/images/products/storage/gasolina/Sintetico-SAE-5W20.png"
+                                alt="Front of men&#039;s Basic Tee in black."
+                                className="p-2 mx-auto items-center  h-2/5 w-2/6  object-fill object-center   md:w-2/4 md:h-3/4 lg:w-3/4 lg:h-3/4"
+                            />
+                        </div>
+                        <div className="mt-4 grid grid-cols-[2fr_0.5fr]  justify-between">
+                            <div className="col-span-2">
+                                <h3 className="text-sm font-bold text-center text-gray-800">
+                                    <a href="#">
+                                        <span
+                                            aria-hidden="true"
+                                            className="absolute inset-0"
+                                        >
+                                            {" "}
+                                        </span>
+                                        SAE 5W-20 API SP
+                                    </a>
+                                </h3>
+                            </div>
+                            <div className="">
+                                <p className="mt-1 text-sm text-gray-500">
+                                    Aceite para motores a gasolina.
+                                </p>
+                            </div>
+                            <div className="text-center my-auto">
+                                <p className="text-2xl font-medium text-gray-900">
+                                    $7
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <div className="group relative border border-zinc-800 p-2 rounded-xl">
+                        <div className="aspect-w-1 aspect-h-1 overflow-hidden  rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none ">
+                            <img
+                                src="https://skylubricantes.com/images/products/storage/gasolina/Sintetico-SAE-5W20.png"
+                                alt="Front of men&#039;s Basic Tee in black."
+                                className="p-2 mx-auto items-center  h-2/5 w-2/6  object-fill object-center   md:w-2/4 md:h-3/4 lg:w-3/4 lg:h-3/4"
+                            />
+                        </div>
+                        <div className="mt-4 grid grid-cols-[2fr_0.5fr]  justify-between">
+                            <div className="col-span-2">
+                                <h3 className="text-sm font-bold text-center text-gray-800">
+                                    <a href="#">
+                                        <span
+                                            aria-hidden="true"
+                                            className="absolute inset-0"
+                                        >
+                                            {" "}
+                                        </span>
+                                        SAE 5W-20 API SP
+                                    </a>
+                                </h3>
+                            </div>
+                            <div className="">
+                                <p className="mt-1 text-sm text-gray-500">
+                                    Aceite para motores a gasolina.
+                                </p>
+                            </div>
+                            <div className="text-center my-auto">
+                                <p className="text-2xl font-medium text-gray-900">
+                                    $7
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </Carousel.Item>
+            </Carousel>
         </>
     );
 };
