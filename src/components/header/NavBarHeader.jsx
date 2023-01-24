@@ -43,8 +43,7 @@ const NavBarHeader = () => {
                     <span>                       
                         <a href="#Catalogo" className="ease-in duration-300">Catalogo</a>
                     </span>
-                    <span>
-                      
+                    <span>                      
                         <a href="">Caracteristicas</a>{" "}
                     </span>
                 </nav>
