@@ -40,13 +40,11 @@ const NavBarHeader = () => {
                     <span>
                         <a href="">Contacto</a>
                     </span>
-                    <span>
-                        {" "}
-                        <a href="">Catalogo</a>
+                    <span>                       
+                        <a href="#Catalogo" className="ease-in duration-300">Catalogo</a>
                     </span>
-
                     <span>
-                        {" "}
+                      
                         <a href="">Caracteristicas</a>{" "}
                     </span>
                 </nav>

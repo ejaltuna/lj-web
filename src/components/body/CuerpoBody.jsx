@@ -69,7 +69,7 @@ const CuerpoBody = () => {
                     </div>
                 </div>
             </section>
-            <section className=" mx-auto px-4 md:px-1 text-center pb-16">
+            {/* <section className=" mx-auto px-4 md:px-1 text-center pb-16">
                 <h1 className=" container text-center text-white font-bold text-3xl bg-violet-800 py-4 mx-auto rounded-md">
                     Mas Vendidos...
                 </h1>
@@ -114,12 +114,12 @@ const CuerpoBody = () => {
                     </Carousel.Item>
                  
                 </Carousel> */}
-                <div className="bg-white">
+                {/* <div className="bg-white">
                     <div className="mx-auto max-w-2xl py-1 px-1 sm:py-2 sm:px-6 lg:max-w-7xl lg:px-1">
                         <div className="mt-2 grid grid-cols-1 place-content-center gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-7 2xl:grid-cols-8 xl:gap-x-8"></div>
                     </div>
                 </div>
-            </section>
+            </section>   */}
 
             <section className="container mx-auto px-4 md:px-10  pb-16">
                 <div className="grid md:grid-cols-[1.5fr_1fr]  gap-4 md:gap-y-4 grid-cols-1 bg-violet-800 rounded-md items-center">
@@ -150,7 +150,7 @@ const CuerpoBody = () => {
                 </div>
             </section>
 
-            <section className="">
+            <section id="Catalogo" className="">
                 <h1 className="text-center font-bold text-3xl">
                     Catalogo de Aceites
                 </h1>

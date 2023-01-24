@@ -7,7 +7,7 @@ const Body = () => {
     <HeaderBody/>
     <hr/>    
     <CuerpoBody/>
-    </>;
+    </>
 };
 
 export default Body;
